@@ -1,7 +1,8 @@
 import inspect
 
-__author__="sourabhsheokand945@gmail.com"
+__author__="sourabh945"
 __version__="0.0.1"
+__email__="sheokand.anil.sourabh@gmail.com"
 
 class Matrix:
     def __init__(self,elements:list) -> None:
@@ -115,10 +116,4 @@ class Matrix:
                 mid_col.append(float(mine[i+j*self.nrow]/(self.det)))
             result.append(mid_col)
         return result
-
-
-a = Matrix([[1,2,0],[0,1,0],[0,0]])
-b = Matrix([[2,4],[2,3]])
-print(a.transpose())
-print(a.det)
-print(b.det)
+ ha
